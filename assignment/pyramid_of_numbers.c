@@ -69,6 +69,7 @@ int main(int argc, char *argv[])
   copy_big_int(&big_int,&big_result);
   for (int factor = 2; factor < 10; factor++)
   {
+    
     print_big_int(&big_result);
     multiply(&big_int,factor,&big_result);
     printf("* %d =",factor);
